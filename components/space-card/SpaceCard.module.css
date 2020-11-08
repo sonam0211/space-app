@@ -1,0 +1,38 @@
+.spaceContainer {
+  padding: 24px;
+  background-color: #fff;
+}
+
+.spaceImageContainer {
+  height: 165px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.displayRow {
+  display: flex;
+  margin: 10px 0;
+  font-family: Roboto;
+  font-size: 18px;
+}
+
+.listStyle {
+  margin: 10px 0;
+  font-family: Roboto;
+  font-size: 18px;
+}
+.imageStyle {
+  width: 150px;
+  height: 150px;
+}
+
+.textStyle {
+  margin: 10px 0;
+  font-family: Roboto;
+  font-size: 18px;
+  color: blue;
+}
+
+.elementStyle {
+  flex-basis: 50%;
+}

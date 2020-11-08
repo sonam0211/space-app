@@ -1,0 +1,17 @@
+.filterContainer {
+  background-color: #fff;
+  padding: 24px;
+  grid-column: span 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  height: max-content;
+}
+
+.filterHeader {
+  grid-column: span 2;
+}
+.buttonStyle {
+  grid-column: span 1;
+}

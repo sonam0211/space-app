@@ -1,0 +1,12 @@
+.buttonStyle {
+  padding: 10px;
+  background-color: lightgreen;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.darkButton {
+  padding: 10px;
+  background-color: green;
+  border-radius: 6px;
+  cursor: pointer;
+}

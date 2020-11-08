@@ -1,0 +1,60 @@
+.spacePageContainer {
+  background-color: #f9f9f9;
+
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 16px;
+  display: grid;
+  padding: 20px;
+  height: 100vh;
+}
+
+.spaceCard {
+  grid-column: span 1;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  height: max-content;
+}
+
+/* @mixin medium-breakpoint {
+  @media (min-width: #{$tablet}) {
+    @content;
+  }
+} */
+
+@media (min-width: 768px) {
+  .spacePageContainer {
+    /* background-color: #f9f9f9; */
+
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-column-gap: 16px; */
+    /* display: grid; */
+    /* padding: 20px; */
+  }
+  .spaceCard {
+    grid-column: span 2;
+    /* display: grid; */
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-column-gap: 16px;
+    grid-row-gap: 16px; */
+  }
+}
+
+@media (min-width: 1280px) {
+  .spacePageContainer {
+    /* background-color: #f9f9f9; */
+
+    grid-template-columns: repeat(5, 1fr);
+    /* grid-column-gap: 16px; */
+    /* display: grid; */
+    /* padding: 20px; */
+  }
+  .spaceCard {
+    grid-column: span 4;
+    /* display: grid; */
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-column-gap: 16px;
+    grid-row-gap: 16px; */
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "eslint.alwaysShowStatus": true,
+  "editor.tabSize": 2,
+  "[javascript, javascriptreact, jsonc, json, html,css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
+  "javascript.validate.enable": false,
+  "javascript.updateImportsOnFileMove.enabled": "always"
+}
+
